@@ -1,0 +1,78 @@
+body{
+   /* background: url("Mamatha_poojari.jpg") no-repeat center; */
+   height: 600;
+   width: 600;
+   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+}
+ul{
+ 
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   border: steelblue;
+   border-radius: 4rem;
+}
+ ul li{
+   list-style: none;
+}
+ul li a{
+   text-transform: uppercase;
+   font-weight: bold;
+   color: #fff;
+   font-size: 0.875em;
+   text-decoration: none;
+   padding: 1em;
+   white-space: nowrap;
+   letter-spacing: 1px;
+}
+ul li a:hover{
+ border-bottom: 3px solid #fff;
+ border: steelblue;
+ border-radius: 4rem;
+}
+.header{
+   padding: 20px;
+   height: 100vh;
+   background: url("Mamatha_poojari.jpg") no-repeat center;
+   background-size: cover;
+   position: relative;
+   border: 8px solid rgb(145, 141, 141);
+   margin: 0px;
+}
+.header h1{
+   margin: 0;
+   font-weight: 900;
+   font-size: 3rem;
+   text-align: center;
+   color: #fff;
+   margin-bottom: 20px;
+}
+.header .content{
+   position: relative;
+   top: 50%;
+   text-align: center;
+   border: 10px black;
+}
+.flex{
+   background:url("1811433.jpg") no-repeat center;
+   background-size: cover;
+   opacity:1;
+   position: relative;
+   border: 10px black;
+   font-family: cursive;
+   color: rgb(181, 191, 199);
+}
+h1{
+   background: linear-gradient(grey,black);
+   text-align: center;
+   justify-content: center;
+}
+.container{
+   border: steelblue;
+   border-radius: 4rem;
+   border-bottom: thick;
+   border-top: transparent;
+  }  
+p{
+   border: 10px ridge white;
+}
